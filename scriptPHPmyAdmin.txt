@@ -1,0 +1,14 @@
+-- DROP DATABASE dbCrud;
+
+-- Creación de la base de datos  dbCrud --
+CREATE DATABASE dbCrud;
+USE dbCrud;
+
+-- Creación de la tabla usuario--
+CREATE TABLE dbCrud.usuario
+(
+ID INT(11) PRIMARY KEY NOT NULL,
+usuario VARCHAR(100) NOT NULL,
+password VARCHAR(100) NOT NULL,
+email VARCHAR(120) NOT NULL
+) ENGINE = InnoDB;
