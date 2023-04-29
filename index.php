@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<title>CRUD EN PHP</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
 	<form method="post" action="index.php">
